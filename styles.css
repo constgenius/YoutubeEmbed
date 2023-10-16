@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    width: 1120px;
+    height: 630px;
+    border-radius: 10px;
+}
+
+@media (max-width:1200px) {
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+}
+
+@media (max-width:550px) {
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
+}
